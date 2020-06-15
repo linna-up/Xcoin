@@ -3,7 +3,6 @@
 	import {api} from 'api/api.js'
 	export default {
 		onLaunch: function() {
-			console.log('App Launch');
 			// #ifdef APP-PLUS
 			plus.screen.lockOrientation('portrait-primary');//强制竖屏
 			// #endif
@@ -18,20 +17,16 @@
 			});
 		},
 		onShow: function() {
-			console.log('App Show');
 			let _this = this;
 			
 			// 判断选择的语言
-			console.log(language);
 			if (language === "zh-CN") {
-				console.log(cn)
 				_this.$i18n.locale = 'zh-CN';
 			} else {
 				_this.$i18n.locale = 'en-US';
 			};
 		},
 		onHide: function() {
-			console.log('App Hide')
 		},
 		computed: {
 		    i18n () {  

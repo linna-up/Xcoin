@@ -3,7 +3,7 @@
 		<view class="left">
 			<image src="../../../static/img/home/horn.png" ></image>
 		</view>
-		<view class="center">{{notice}}</view>
+		<view class="center">{{$i18n.locale === 'zh-CN'?'系统公告':'System notice'}}</view>
 		<view class="right">
 			>
 		</view>
@@ -16,9 +16,9 @@
 		props: {
 			notice: {
 				type: String,
-				default:"系统公告"
+				default:'系统公告'
 			}
-		}
+		},
 	}
 </script>
 

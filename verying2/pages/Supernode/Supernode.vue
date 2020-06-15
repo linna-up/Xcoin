@@ -162,7 +162,7 @@
 		},
 		computed:{
 			i18n(){
-				return this.$t('message').SuperNode
+				return this.$t('message').Supernode
 			},
 			Num() {
 				if(this.super_nodes === 1) {

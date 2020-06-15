@@ -180,10 +180,10 @@ export const lang = {
 				"MoneyPassword":"Money PW",
 				"NewPassword":"New PW",
 				"NewPasswordInput":"Please enter new PW",
-				"Confirm":"Confirm NewPassword ",
+				"Confirm":"Confirm NewPW ",
 				"ConfirmInput":"Please confirm new PW",
 				"VerifyCode":"MobileVerifyCode",
-				"CodeInput":"Please enter verify code",
+				"CodeInput":"Please enter code",
 				"COMMITTED":"COMMITTED",
 				"Send":"Send"
 			},
@@ -557,7 +557,7 @@ export const lang = {
 			"Center":"Security center",
 			"LoginPw":"Login PW",
 			"Update":"Modify",
-			"TradingPw":"Trade password",
+			"TradingPw":"Trade PW",
 			"Set":"Set",
 		},
 		"SetUp":{
@@ -652,6 +652,9 @@ export const lang = {
 			"Norm":"Norm",
 			"AllBuy":"AllBuy",
 			
+			"TradingRecord":"TradingRecord",
+			"EntrustedRecord":"EntrustedRecord",
+			
 			"Click":"Click load more……",
 			"Type":"Type",
 			"Time":"Time",
@@ -681,7 +684,7 @@ export const lang = {
 		},
 		"Quotation":{
 			"Market":"Market",
-			"ServiceCenter":"ServiceCenter",
+			"ServiceCenter":"ServeCenter",
 			"Name ":"Name",
 			"New":"NewPrice",
 			"Applies":"Applies",

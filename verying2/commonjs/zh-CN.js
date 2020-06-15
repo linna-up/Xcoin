@@ -644,6 +644,9 @@ export const lang = {
 			"Norm":"限额",
 			"AllBuy":"全部买入",
 			
+			"TradingRecord":"交易记录",
+			"EntrustedRecord":"委托记录",
+			
 			"Click":"点击加载更多……",
 			"Type":"类型",
 			"Time":"时间",

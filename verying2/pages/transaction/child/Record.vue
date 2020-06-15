@@ -1,8 +1,8 @@
 <template>
 	<view class="Record">
 		<view class="operation">
-			<view class="operation_left" @click="operationIndex(0)"><span :class="{recordActive:activeIndex===0}">交易记录</span></view>
-			<view class="operation_right" @click="operationIndex(1)"><span :class="{recordActive:activeIndex===1}">委托记录</span></view>
+			<view class="operation_left" @click="operationIndex(0)"><span :class="{recordActive:activeIndex===0}">{{i18n.TradingRecord}}</span></view>
+			<view class="operation_right" @click="operationIndex(1)"><span :class="{recordActive:activeIndex===1}">{{i18n.EntrustedRecord}}</span></view>
 		</view>
 		<Details></Details>
 		<view class="loading">{{$t('message').transaction.Click}}</view>
@@ -17,6 +17,11 @@
 			return {
 				/* list:['交易记录','委托记录'] */
 				activeIndex:0
+			}
+		},
+		computed:{
+			i18n(){
+				return this.$t('message').transaction
 			}
 		},
 		methods: {

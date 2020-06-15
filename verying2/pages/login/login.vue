@@ -141,7 +141,6 @@
 			},
 			Switch(){
 				this.left = !this.left
-				console.log(this._i18n);
 				this.$i18n.locale = this.left ? 'zh-CN' : 'en-US'
 			}
 		}
