@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "invi-nav": "/pages/InviteFriends/child/InviNav",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

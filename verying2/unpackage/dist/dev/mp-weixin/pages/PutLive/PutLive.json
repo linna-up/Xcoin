@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "item": "/pages/PutLive/child/PutItem",
+    "u-item": "/pages/PutLive/child/UsdtItem"
+  }
+}

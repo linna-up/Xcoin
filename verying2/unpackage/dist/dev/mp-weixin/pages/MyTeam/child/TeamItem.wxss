@@ -1,0 +1,25 @@
+
+.team.data-v-942969b4 {
+	width: 100%;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.team_box.data-v-942969b4 {
+	width: 85%;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 16px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.team_box>view.data-v-942969b4 {
+	width: 50%;
+	font-size: 16px;
+}
+.team_box_right.data-v-942969b4 {
+	text-align: right;
+	padding-right: 40px;
+}
+

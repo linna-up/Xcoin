@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "his-item": "/pages/history/child/HistoryItem"
+  }
+}

@@ -1,0 +1,1 @@
+<view style="{{'background-color:'+(bg)+';'+('padding-top:'+(top+'px')+';')}}" id="navbar"><view class="left"><image src="../static/img/logo/XEV.png" data-event-opts="{{[['tap',[['toJump',['$event']]]]]}}" bindtap="__e"></image></view><view class="center"><label class="_span">XEV</label></view><view class="right"><image src="../static/img/home/notice.png"></image></view></view>

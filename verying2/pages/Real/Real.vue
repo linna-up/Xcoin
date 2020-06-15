@@ -1,0 +1,180 @@
+<template>
+	<view class="pay" :style="{width:windowWidth+'px',height:windowHeight+'px'}">
+		<view class="title" :style="{paddingTop:top+'px'}">
+			<view class="title_left" :style="{top:top}" @click="back">
+				<image src="../../static/img/notice/back.png"></image>
+			</view>
+			{{$t('message').mine.RealName.Certification}}
+		</view>
+		<view class="two_item">
+			<view class="two_item_left">{{$t('message').mine.RealName.RealName}}</view>
+			<view class="two_item_right">
+				<input type="text" :placeholder="$t('message').mine.RealName.RealNameInput" maxlength="4" v-model="username" />
+			</view>
+		</view>
+		<view class="two_item">
+			<view class="two_item_left">{{$t('message').mine.RealName.ID}}</view>
+			<view class="two_item_right">
+				<input type="text" :placeholder="$t('message').mine.RealName.IDInput" v-model="cardId" />
+			</view>
+		</view>
+		<view class="btm" @click="id_card">{{$t('message').mine.RealName.Submit}}</view>
+
+	</view>
+</template>
+
+<script>
+	import {
+		api
+	} from '../../api/api.js'
+	export default {
+		data() {
+			return {
+				windowWidth: getApp().globalData.windowWidth,
+				windowHeight: getApp().globalData.windowHeight,
+				top: getApp().globalData.top,
+				session_id: uni.getStorageSync("session_id"),
+				uid: uni.getStorageSync("uid"),
+				username: "",
+				cardId: ""
+			}
+		},
+		methods: {
+			back() {
+				uni.navigateBack();
+			},
+			IsCard(str) {
+				var reg = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+				if (reg.test(str)) {
+					return true;
+				} else {
+					return false;
+				}
+			},
+			id_card() {
+				if (this.username === "") {
+					uni.showToast({
+						title: this.$t('message').mine.RealName.EnterName,
+						icon: "none"
+					})
+					return;
+				}
+				else if (this.cardId === "") {
+					uni.showToast({
+						title: this.$t('message').mine.RealName.EnterIDNumber,
+						icon: "none"
+					})
+					return;
+				}else if( !(this.IsCard(this.cardId)) ) {
+					uni.showToast({
+						title: this.$t('message').mine.RealName.IDNumberErr,
+						icon: "none"
+					})
+					return;
+				}
+				uni.request({
+					url: api.id_card,
+					data: {
+						uid: uni.getStorageSync("uid"),
+						session_id: uni.getStorageSync("session_id"),
+						name: this.username,
+						idcard: this.cardId
+					},
+					method: "post",
+					header: {
+						"Content-Type": "application/x-www-form-urlencoded"
+					},
+					success: (res) => {
+						console.log(this.username);
+						console.log(this.cardId);
+						console.log(res);
+						if(res.data.code === "success") {
+							uni.showToast({
+								title: this.$t('message').mine.RealName.AuthSuccess,
+								icon: "none"
+							})
+							setTimeout(()=>{
+								uni.navigateBack();
+							},1500)
+						}else {
+							uni.showToast({
+								title: res.data.msg,
+								icon: "none"
+							})
+						}
+					},
+				})
+			}
+		},
+		onLoad: () => {
+
+		}
+	}
+</script>
+
+<style scoped>
+	.pay {}
+
+	.title {
+		width: 100%;
+		height: 50px;
+		font-size: 18px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding-bottom: 15px;
+	}
+
+	.title_left {
+		position: absolute;
+		width: 60px;
+		height: 50px;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.title_left>image {
+		width: 18px;
+		height: 18px;
+	}
+
+	.two_item {
+		width: 100%;
+		height: 35px;
+		line-height: 35px;
+		display: flex;
+		font-size: 16px;
+	}
+
+	.two_item_left {
+		width: 30%;
+		height: 35px;
+		text-align: center;
+	}
+
+	.two_item_right {
+		flex: 1;
+		height: 35px;
+	}
+
+	.two_item_right>input {
+		width: 100%;
+		height: 35px;
+	}
+
+	.btm {
+		width: 90%;
+		height: 50px;
+		margin: 0 auto;
+		margin-top: 50px;
+		background-color: #0066A1;
+		border-radius: 3px;
+		text-align: center;
+		line-height: 50px;
+		color: #FFFFFF;
+		font-size: 16px;
+	}
+</style>

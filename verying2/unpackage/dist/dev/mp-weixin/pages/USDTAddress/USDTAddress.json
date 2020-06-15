@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "ad-item": "/pages/USDTAddress/child/AddItem"
+  }
+}

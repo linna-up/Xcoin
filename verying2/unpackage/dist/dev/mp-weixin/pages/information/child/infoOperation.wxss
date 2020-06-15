@@ -1,0 +1,27 @@
+
+.operation.data-v-2a917840 {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border:1px solid #EBEBEB;
+}
+.operation_item.data-v-2a917840 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 17px;
+	text-align: center;
+}
+.active.data-v-2a917840 {
+	border-bottom:1px solid #0066A2;
+	padding-left:4px;
+	padding-right: 4px;
+}
+

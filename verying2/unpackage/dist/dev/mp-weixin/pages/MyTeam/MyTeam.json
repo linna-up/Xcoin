@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "team-item": "/pages/MyTeam/child/TeamItem"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "title": "/pages/contractualing/child/title",
+    "panel": "/pages/contractualing/child/panel"
+  }
+}

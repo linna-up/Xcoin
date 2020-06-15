@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "title": "/pages/contract/child/ctitle",
+    "cumulative": "/pages/contract/child/cumulative",
+    "top": "/pages/contract/child/top",
+    "panel": "/pages/contract/child/panel",
+    "detailed": "/pages/contract/child/detailed"
+  }
+}

@@ -1,0 +1,1 @@
+<view style="{{'padding-top:'+(top+'px')+';'}}" id="navbar"><view class="left"><image src="../../../static/img/notice/back.png" data-event-opts="{{[['tap',[['back',['$event']]]]]}}" bindtap="__e"></image></view><view class="center"></view><view class="right"></view></view>

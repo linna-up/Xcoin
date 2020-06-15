@@ -1,0 +1,120 @@
+
+.transaction {
+	position: relative;
+}
+.notice_title {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+	background-color: #FFFFFF;
+}
+.notice_title_left {
+	position: absolute;
+	width: 60px;
+	height: 50px;
+	left: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.notice_title_left>image {
+	width: 16px;
+	height: 16px;
+}
+.tabBox {
+	width: 100%;
+	height: 40px;
+	border-bottom: 0.5px solid #C1C1C1;
+}
+.tabBoxc {
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 9px;
+}
+.tabBoxc>view>._span {
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+}
+.usdt,
+.xev {
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	font-weight: 600;
+}
+.onekeybuy {
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	float: right;
+	background: -webkit-gradient(linear, left top, right top, from(#005FA1), to(#00ACAE));
+	background: -webkit-linear-gradient(left, #005FA1, #00ACAE);
+	background: linear-gradient(to right, #005FA1, #00ACAE);
+	border-radius: 16px;
+	color: #FFFFFF;
+}
+
+/* .tab {
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #C1C1C1;
+}
+.tabBox {
+	width: 50%;
+	height: 25px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid grey;
+	border-radius: 16px;
+	font-size: 15px;
+}
+.tabBox>view {
+	flex: 1;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.Quotation {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	height: 25px;
+	font-size: 16px;
+	line-height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Quotation>image {
+	width: 25px;
+	height: 25px;
+} */
+.active {
+	border-bottom: 1px solid #0165A1;
+}
+

@@ -1,0 +1,1 @@
+<view class="addressmask data-v-314afc4e" style="{{'width:'+(windowWidth+'px')+';'+('height:'+(windowHeight+'px')+';')}}"><view class="box data-v-314afc4e"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['operation',[index]]]]]}}" class="box_item data-v-314afc4e" bindtap="__e">{{item}}</view></block></view></view>

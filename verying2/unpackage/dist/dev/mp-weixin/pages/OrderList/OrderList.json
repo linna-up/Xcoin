@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "or-item": "/pages/order/child/NavItem",
+    "list-item": "/pages/OrderList/child/ListItem"
+  }
+}

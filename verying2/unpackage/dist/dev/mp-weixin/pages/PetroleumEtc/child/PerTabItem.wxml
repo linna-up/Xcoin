@@ -1,0 +1,1 @@
+<view class="tab data-v-7d08547a"><view data-event-opts="{{[['tap',[['changeIndex',[0]]]]]}}" class="{{['tab_left data-v-7d08547a',(activeIndex===0)?'active':'']}}" bindtap="__e">中石化充值</view><view data-event-opts="{{[['tap',[['changeIndex',[1]]]]]}}" class="{{['tab_right data-v-7d08547a',(activeIndex===1)?'active':'']}}" bindtap="__e">中石油充值</view></view>

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "set-up-item": "/pages/SetUp/child/SetUpItem"
+  }
+}

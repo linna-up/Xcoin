@@ -1,0 +1,117 @@
+
+.addressmask.data-v-5c47d378 {
+	background-color: rgb(204,204,204,0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.addressmask_box.data-v-5c47d378 {
+	width: 100%;
+	height: 55vh;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 8px;
+	padding-top: 16px;
+	padding-bottom: 8px;
+}
+.addressmask_box_title.data-v-5c47d378 {
+	width: 100%;
+	height: 60px;
+	line-height: 30px;
+	font-size: 16px;
+	text-indent: 16px;
+	color: #666666;
+}
+.addressmask_box_title>._p>._span.data-v-5c47d378 {
+	color: #0866C2!important;
+}
+.anquan.data-v-5c47d378 {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border-top:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6 ;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.anquan_left.data-v-5c47d378 {
+	width: 50%;
+	font-size: 18px;
+	text-indent: 16px;
+}
+.anquan_right.data-v-5c47d378{
+	width: 50%;
+	font-size: 16px;
+	text-align: right;
+	padding-right: 16px;
+	color: #E6E6E6;
+}
+.tell.data-v-5c47d378 {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 16px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+.yzbox.data-v-5c47d378{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom:0.5px solid #6495ED;
+}
+.yzbox_left.data-v-5c47d378 {
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 16px;
+}
+.yzbox_left.data-v-5c47d378{
+	height: 30px;
+	font-size: 18px;
+}
+.yzbox_right.data-v-5c47d378 {
+	width: 50%;
+	height: 30px;
+	text-align:right;
+	padding-right: 16px;
+}
+.yzbox_right>._span.data-v-5c47d378 {
+	font-size: 18px;
+	color: #0566C7;
+}
+.btm.data-v-5c47d378 {
+	width: 90%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #BBC7D3;
+	border-radius: 8px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 40px;
+}
+.close.data-v-5c47d378 {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+.close>image.data-v-5c47d378 {
+	width: 25px;
+	height: 25px;
+}
+

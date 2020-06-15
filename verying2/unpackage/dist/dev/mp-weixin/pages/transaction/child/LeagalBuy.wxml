@@ -1,0 +1,1 @@
+<view class="LeagalBuy data-v-64099075"><view class="space data-v-64099075"></view><block wx:for="{{10}}" wx:for-item="item" wx:for-index="index" wx:key="index"><item vue-id="{{'45f03612-1-'+index}}" list="{{list}}" class="data-v-64099075" bind:__l="__l"></item></block></view>

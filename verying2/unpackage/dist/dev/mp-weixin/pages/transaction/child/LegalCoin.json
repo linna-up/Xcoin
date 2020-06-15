@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "manipulate": "/pages/transaction/child/manipulate",
+    "legal-buy": "/pages/transaction/child/LeagalBuy",
+    "lega-sell": "/pages/transaction/child/LeagalSell"
+  }
+}

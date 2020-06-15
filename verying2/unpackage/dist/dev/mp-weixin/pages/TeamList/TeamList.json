@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "list-item": "/pages/TeamList/child/ListItem"
+  }
+}

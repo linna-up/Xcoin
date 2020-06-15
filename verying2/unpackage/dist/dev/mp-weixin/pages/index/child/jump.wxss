@@ -1,0 +1,21 @@
+
+.jump.data-v-658b1151 {
+	width: 100%;
+	height: 60px;
+	background: -webkit-gradient(linear,left top, right top,from(#1EAAFF),to(#0388FF));
+	background: -webkit-linear-gradient(left,#1EAAFF,#0388FF);
+	background: linear-gradient(to right,#1EAAFF,#0388FF);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 15px;
+	color: #FFFFFF;
+	margin-top: 16px;
+}
+

@@ -1,0 +1,28 @@
+
+.coinTocoin.data-v-34eeb054 {
+	/* width: 95%; */
+	height: 80vh;
+	margin: 0 auto;
+	/* margin-top: 30px; */
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+.coinTocoin_title.data-v-34eeb054 {
+	width: 90%;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	color: #0066A1;
+}
+.BuyAndSell.data-v-34eeb054 {
+}
+.buy.data-v-34eeb054 {
+	color: #FFFFFF;
+	background-color: #0066A1;
+}
+.sell.data-v-34eeb054 {
+	color: #FFFFFF;
+	background-color: #00A8AB;
+}
+

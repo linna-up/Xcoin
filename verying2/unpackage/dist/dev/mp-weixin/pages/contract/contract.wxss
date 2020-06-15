@@ -1,0 +1,13 @@
+
+.contract.data-v-70bfd0cc {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(/static/img/contract/bg.jpg);
+	background-size: 100% 100%;
+}
+.box.data-v-70bfd0cc {
+	width: 100vw;
+	height: 45vh;
+	white-space: nowrap;
+}
+
