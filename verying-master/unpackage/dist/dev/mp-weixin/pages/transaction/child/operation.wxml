@@ -1,0 +1,1 @@
+<view class="operation data-v-6a948e20"><view data-event-opts="{{[['tap',[['changeActive',[0]]]]]}}" class="{{['data-v-6a948e20',(active===0)?'operation_buy':'']}}" bindtap="__e">{{list[0]}}</view><view data-event-opts="{{[['tap',[['changeActive',[1]]]]]}}" class="{{['data-v-6a948e20',(active===1)?'operation_sell':'']}}" bindtap="__e">{{list[1]}}</view></view>

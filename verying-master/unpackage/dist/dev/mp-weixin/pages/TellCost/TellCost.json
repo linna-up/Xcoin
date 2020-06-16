@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "tell-item": "/pages/TellCost/child/TellItem",
+    "tell-mask": "/pages/TellCost/child/TellMask"
+  }
+}

@@ -1,0 +1,19 @@
+
+.item.data-v-1579e45f {
+	width: 15%;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	font-size: 16px;
+}
+.item>._span.data-v-1579e45f {
+	padding-left: 2px;
+	padding-right: 2px;
+	height: 29px;
+	line-height: 29px;
+	display: inline-block;
+}
+.active>._span.data-v-1579e45f {
+	border-bottom: 1px solid #0066A1;
+}
+

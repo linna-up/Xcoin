@@ -1,0 +1,53 @@
+
+.classalist.data-v-d560b828 {
+}
+.notice_title.data-v-d560b828 {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+	background-color: #FFFFFF;
+}
+.notice_title_left.data-v-d560b828 {
+	position: absolute;
+	width: 60px;
+	height: 50px;
+	left: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.notice_title_left>image.data-v-d560b828 {
+	width: 16px;
+	height:16px;
+}
+.title.data-v-d560b828 {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 1px solid #E6E6E6;
+}
+.title>view.data-v-d560b828 {
+	width: 20%;
+}
+

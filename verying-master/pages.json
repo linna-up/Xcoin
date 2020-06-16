@@ -1,0 +1,435 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/init/init",
+		    "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none"
+				}
+			}
+		}, 
+		{
+			"path": "pages/contractualing/contractualing",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/contract/contract",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/transaction/transaction",
+			"style": {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+		}, 
+		{
+			"path": "pages/information/information",
+			"style": {
+				/* "navigationStyle": "custom" */
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+		}, 
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "#ffffff",
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none"
+				}
+		}
+			}, 
+			{
+				"path": "pages/notice/notice",
+				"style": {
+					/* "navigationBarBackgroundColor":"#FFFFFF",
+					"navigationBarTitleText":"系统公告" */
+					"navigationStyle": "custom",
+					"scrollIndicator": "none"
+				}
+			}
+		    ,{
+		        "path" : "pages/NoticeDetails/NoticeDetails",
+		        "style" : {
+					"navigationStyle": "custom"
+				}
+		    }
+		    ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTextStyle": "#ffffff",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/forgetPS/forgetPS",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/CoinCharging/CoinCharging",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/CollectCoin/CollectCoin",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/USDTAddress/USDTAddress",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/AddAddress/AddAddress",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/Quotation/Quotation",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/SetUp/SetUp",
+            "style" : {
+				"navigationBarTitleText":"设置中心",
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/HistoryDetails/HistoryDetails",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/transfer/transfer",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/IdentifyChips/IdentifyChips",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/TellCost/TellCost",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/OrderList/OrderList",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/NodeRules/NodeRules",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none",
+				"navigationBarTextStyle": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/ApplyNode/ApplyNode",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/PutLive/PutLive",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/binding/binding",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/BindingUsdt/BindingUsdt",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/BindingWx/BindingWx",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/BindingZfb/BindingZfb",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/BindingBank/BindingBank",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/MyTeam/MyTeam",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/ClassAList/ClassAList",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/TeamList/TeamList",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/SecurityCenter/SecurityCenter",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/PasswordUpdate/PasswordUpdate",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/CapitalUpdate/CapitalUpdate",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/PetroleumEtc/PetroleumEtc",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        },
+		{
+		    "path" : "pages/InviteFriends/InviteFriends",
+		    "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+		}
+        ,{
+            "path" : "pages/Problem/Problem",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/Pay/Pay",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/CollectCoins/CollectCoins",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/Real/Real",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        },
+		{
+		    "path" : "pages/ClassALists/ClassALists",
+		    "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+		}
+        ,{
+            "path" : "pages/Supernode/Supernode",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/StartSuperNode/StartSuperNode",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/RankingList/RankingList",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+        ,{
+            "path" : "pages/ReceiveRecord/ReceiveRecord",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+		,{
+		    "path" : "pages/OrderDetail/OrderDetail",
+		    "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+		}
+		,{
+		    "path" : "pages/InvestmentRecord/InvestmentRecord",
+		    "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+		}
+        ,{
+            "path" : "pages/CumulativeRecord/CumulativeRecord",
+            "style" : {
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1388EF",
+		"borderStyle": "black",
+		"backgroundColor": "#E6E6E6",
+		"list": [{
+				"pagePath": "pages/contract/contract",
+				"iconPath": "static/img/tabbar/contract.png",
+				"selectedIconPath": "static/img/tabbar/contract_a.png",
+				"text": "合约计划"
+			},
+			{
+				"pagePath": "pages/Quotation/Quotation",
+				"iconPath": "static/img/tabbar/transaction.png",
+				"selectedIconPath": "static/img/tabbar/transaction_a.png",
+				"text": "交易"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/index/xev.png",
+				"selectedIconPath": "static/img/index/xev.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/information/information",
+				"iconPath": "static/img/tabbar/information.png",
+				"selectedIconPath": "static/img/tabbar/information_a.png",
+				"text": "资产"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/img/tabbar/mine.png",
+				"selectedIconPath": "static/img/tabbar/mine_a.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

@@ -1,0 +1,95 @@
+{
+  "pages": [
+    "pages/init/init",
+    "pages/index/index",
+    "pages/contractualing/contractualing",
+    "pages/contract/contract",
+    "pages/transaction/transaction",
+    "pages/information/information",
+    "pages/mine/mine",
+    "pages/notice/notice",
+    "pages/NoticeDetails/NoticeDetails",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forgetPS/forgetPS",
+    "pages/CoinCharging/CoinCharging",
+    "pages/CollectCoin/CollectCoin",
+    "pages/USDTAddress/USDTAddress",
+    "pages/AddAddress/AddAddress",
+    "pages/Quotation/Quotation",
+    "pages/SetUp/SetUp",
+    "pages/history/history",
+    "pages/HistoryDetails/HistoryDetails",
+    "pages/transfer/transfer",
+    "pages/IdentifyChips/IdentifyChips",
+    "pages/TellCost/TellCost",
+    "pages/order/order",
+    "pages/OrderList/OrderList",
+    "pages/NodeRules/NodeRules",
+    "pages/ApplyNode/ApplyNode",
+    "pages/PutLive/PutLive",
+    "pages/binding/binding",
+    "pages/BindingUsdt/BindingUsdt",
+    "pages/BindingWx/BindingWx",
+    "pages/BindingZfb/BindingZfb",
+    "pages/BindingBank/BindingBank",
+    "pages/MyTeam/MyTeam",
+    "pages/ClassAList/ClassAList",
+    "pages/TeamList/TeamList",
+    "pages/SecurityCenter/SecurityCenter",
+    "pages/PasswordUpdate/PasswordUpdate",
+    "pages/CapitalUpdate/CapitalUpdate",
+    "pages/PetroleumEtc/PetroleumEtc",
+    "pages/InviteFriends/InviteFriends",
+    "pages/Problem/Problem"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1388EF",
+    "borderStyle": "black",
+    "backgroundColor": "#E6E6E6",
+    "list": [
+      {
+        "pagePath": "pages/contract/contract",
+        "iconPath": "static/img/tabbar/contract.png",
+        "selectedIconPath": "static/img/tabbar/contract_a.png",
+        "text": "合约计划"
+      },
+      {
+        "pagePath": "pages/Quotation/Quotation",
+        "iconPath": "static/img/tabbar/transaction.png",
+        "selectedIconPath": "static/img/tabbar/transaction_a.png",
+        "text": "交易"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/home_a.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "iconPath": "static/img/tabbar/information.png",
+        "selectedIconPath": "static/img/tabbar/information_a.png",
+        "text": "资产"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/img/tabbar/mine.png",
+        "selectedIconPath": "static/img/tabbar/mine_a.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

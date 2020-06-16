@@ -1,0 +1,1 @@
+<view class="LeagalSell data-v-bc5a7d1a"><view class="space data-v-bc5a7d1a"></view><block wx:for="{{10}}" wx:for-item="item" wx:for-index="index" wx:key="index"><item vue-id="{{'56f87e26-1-'+index}}" list="{{list}}" class="data-v-bc5a7d1a" bind:__l="__l"></item></block></view>

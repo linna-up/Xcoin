@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "operation": "/pages/transaction/child/operation",
+    "panel": "/pages/transaction/child/CoinToCoinPanel",
+    "record": "/pages/transaction/child/Record"
+  }
+}

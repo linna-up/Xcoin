@@ -1,0 +1,40 @@
+
+.Record.data-v-12e1a488 {
+	width: 100%;
+	margin-top: 30px;
+}
+.operation.data-v-12e1a488 {
+	width: 90%;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 18px;
+}
+.operation>view.data-v-12e1a488 {
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+}
+.operation_right.data-v-12e1a488 {
+	text-align: right;
+}
+.recordActive.data-v-12e1a488 {
+	border-bottom: 1px solid #0165A1;
+}
+.loading.data-v-12e1a488 {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+}
+

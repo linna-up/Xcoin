@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-bar": "/public/NavigationBar",
+    "swiper-box": "/pages/index/child/SwiperBox",
+    "notice": "/pages/index/child/notice",
+    "lattice": "/pages/index/child/lattice",
+    "assets": "/pages/index/child/assets",
+    "jump": "/pages/index/child/jump",
+    "tab": "/pages/index/child/tab",
+    "list": "/pages/index/child/list"
+  }
+}

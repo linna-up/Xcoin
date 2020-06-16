@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "tab-item": "/pages/transaction/child/TabItem",
+    "coin-to-coin": "/pages/transaction/child/CoinToCoin",
+    "legal-tocoin": "/pages/transaction/child/LegalCoin",
+    "my-mask": "/pages/transaction/child/mask",
+    "all-mask": "/pages/transaction/child/AllMask"
+  }
+}

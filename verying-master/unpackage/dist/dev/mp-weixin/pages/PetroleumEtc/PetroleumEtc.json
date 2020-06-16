@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "per-tab-item": "/pages/PetroleumEtc/child/PerTabItem",
+    "item": "/pages/TellCost/child/TellItem",
+    "pet-mask": "/pages/PetroleumEtc/child/PetMask"
+  }
+}

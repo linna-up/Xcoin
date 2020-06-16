@@ -1,0 +1,1 @@
+<view class="title data-v-4a519d1d" style="{{'padding-top:'+(top+'px')+';'}}"><view data-event-opts="{{[['tap',[['back',['$event']]]]]}}" class="title_left data-v-4a519d1d" style="{{'top:'+(top)+';'}}" bindtap="__e"><image src="../../../static/img/contractualing/back.png" class="data-v-4a519d1d"></image></view>合约投资</view>

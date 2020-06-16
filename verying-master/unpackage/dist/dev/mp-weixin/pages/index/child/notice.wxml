@@ -1,0 +1,1 @@
+<view class="notice data-v-44d5183b"><view class="left data-v-44d5183b"><image src="../../../static/img/home/horn.png" class="data-v-44d5183b"></image></view><view class="center data-v-44d5183b">{{notice}}</view><view class="right data-v-44d5183b">></view></view>

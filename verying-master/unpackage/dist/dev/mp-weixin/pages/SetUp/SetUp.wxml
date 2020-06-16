@@ -1,0 +1,1 @@
+<view class="setup data-v-137e1588" style="{{'width:'+(windowWidth+'px')+';'+('height:'+(windowHeight-45+'px')+';')}}"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><my-item vue-id="{{'13444e44-1-'+index}}" list="{{item}}" class="data-v-137e1588" bind:__l="__l"></my-item></block></view>

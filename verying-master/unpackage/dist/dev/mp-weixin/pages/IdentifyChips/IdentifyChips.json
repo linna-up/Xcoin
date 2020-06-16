@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "inden-mask": "/pages/IdentifyChips/child/IdenMask"
+  }
+}

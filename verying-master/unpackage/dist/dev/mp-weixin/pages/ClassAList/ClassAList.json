@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "class-a-item": "/pages/ClassAList/child/ClassAItem"
+  }
+}

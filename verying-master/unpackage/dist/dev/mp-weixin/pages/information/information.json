@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "operation": "/pages/information/child/infoOperation",
+    "info-panel": "/pages/information/child/infoPanel",
+    "info-panel-two": "/pages/information/child/InfoPanelTwo",
+    "info-panel-three": "/pages/information/child/InfoPanelThree",
+    "info-mask": "/pages/information/child/InfoMask",
+    "title": "/pages/information/child/InfoTitle"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "pro-nav": "/pages/Problem/child/ProNav"
+  }
+}

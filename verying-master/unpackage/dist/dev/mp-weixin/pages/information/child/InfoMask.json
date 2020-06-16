@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "item": "/pages/information/child/InfoItem",
+    "mask-two": "/pages/information/child/InfoMaskTwo"
+  }
+}

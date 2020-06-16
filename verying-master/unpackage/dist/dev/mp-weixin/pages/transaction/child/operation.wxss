@@ -1,0 +1,29 @@
+
+.operation.data-v-6a948e20 {
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.operation>view.data-v-6a948e20 {
+	width: 45%;
+	background-color: #F7F6FB;
+	text-align: center;
+}
+.operation_buy.data-v-6a948e20 {
+	background-color: #0066A1!important;
+	color: #FFFFFF;
+}
+.operation_sell.data-v-6a948e20 {
+	background-color: #00AEAD!important;
+	color: #FFFFFF;
+}
+
